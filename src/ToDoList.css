@@ -1,0 +1,9 @@
+.listItem {
+  
+    font-size: 25px;
+    margin: 5px;
+}
+.item {
+    margin-left: 15px;
+    font-style: italic;
+}

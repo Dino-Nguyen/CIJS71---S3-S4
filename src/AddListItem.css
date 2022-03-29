@@ -1,0 +1,9 @@
+.addItem {
+    border:none;
+    border-bottom: 1px solid rgb(186, 197, 201);
+    width: 100%;
+    font-size: 50px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 0;
+}

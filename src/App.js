@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import AddItem from "./AddListItem";
+import ToDoListItem from "./ToDoList";
+import Footer from "./Footer";
+import "./App.css"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AddItem/>
+     <ToDoListItem item="Jogging"/>
+     <ToDoListItem item="Buy some milk"/>
+     <ToDoListItem item="Clean up bedroom"/>
+     <ToDoListItem item="Learn React"/>
+     <ToDoListItem item="Doing Exercises"/>
+     <Footer/>
     </div>
   );
 }
